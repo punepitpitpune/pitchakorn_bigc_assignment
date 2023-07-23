@@ -1,11 +1,11 @@
 # This is a Airflow and Postgres docker config for in local 
 
 
-## all the codes code are in the folder "dags"
-## main script are 
-- step_0_create_table.py
-- step_1_insert_data.py
-- step_2_compare_price.py
+All the codes code are in the folder "dags"
+Main script are 
+- `step_0_create_table.py`
+- `step_1_insert_data.py`
+- `step_2_compare_price.py`
 
 1. RUN this cmd to compose docker <br />
     ``` docker-compose up -d ```
