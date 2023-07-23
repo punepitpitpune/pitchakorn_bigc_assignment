@@ -2,7 +2,6 @@
 
 
 All the codes code are in the folder "dags"
-Main script are 
 - `step_0_create_table.py`
 - `step_1_insert_data.py`
 - `step_2_compare_price.py`
