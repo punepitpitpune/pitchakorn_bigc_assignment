@@ -1,0 +1,256 @@
+[2023-07-22T16:08:54.529+0000] {processor.py:156} INFO - Started process (PID=1031) to work on /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:08:54.532+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bigc_assignment.py for tasks to queue
+[2023-07-22T16:08:54.535+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:08:54.534+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:08:56.600+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:08:56.590+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/bigc_assignment.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bigc_assignment.py", line 35, in <module>
+    python_callable=hello
+NameError: name 'hello' is not defined
+[2023-07-22T16:08:56.608+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:08:56.673+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bigc_assignment.py took 2.154 seconds
+[2023-07-22T16:09:12.731+0000] {processor.py:156} INFO - Started process (PID=1055) to work on /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:09:12.734+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bigc_assignment.py for tasks to queue
+[2023-07-22T16:09:12.738+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:09:12.736+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:09:13.551+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:09:13.546+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/bigc_assignment.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bigc_assignment.py", line 35, in <module>
+    python_callable=hello
+NameError: name 'hello' is not defined
+[2023-07-22T16:09:13.553+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:09:13.636+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bigc_assignment.py took 0.912 seconds
+[2023-07-22T16:09:25.856+0000] {processor.py:156} INFO - Started process (PID=1070) to work on /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:09:25.861+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bigc_assignment.py for tasks to queue
+[2023-07-22T16:09:25.863+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:09:25.863+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:09:26.314+0000] {processor.py:768} INFO - DAG(s) dict_keys(['BigC_assignment']) retrieved from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:09:26.692+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:09:26.692+0000] {manager.py:507} INFO - Created Permission View: can edit on DAG:BigC_assignment
+[2023-07-22T16:09:26.709+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:09:26.709+0000] {manager.py:507} INFO - Created Permission View: can delete on DAG:BigC_assignment
+[2023-07-22T16:09:26.722+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:09:26.722+0000] {manager.py:507} INFO - Created Permission View: can read on DAG:BigC_assignment
+[2023-07-22T16:09:26.725+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:09:26.724+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-07-22T16:09:26.753+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:09:26.753+0000] {dag.py:2594} INFO - Creating ORM DAG for BigC_assignment
+[2023-07-22T16:09:26.774+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:09:26.774+0000] {dag.py:3328} INFO - Setting next_dagrun for BigC_assignment to 2023-07-24T00:00:00+00:00, run_after=2023-07-25T00:00:00+00:00
+[2023-07-22T16:09:26.816+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bigc_assignment.py took 0.974 seconds
+[2023-07-22T16:09:57.167+0000] {processor.py:156} INFO - Started process (PID=1094) to work on /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:09:57.171+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bigc_assignment.py for tasks to queue
+[2023-07-22T16:09:57.173+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:09:57.173+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:09:57.508+0000] {processor.py:768} INFO - DAG(s) dict_keys(['BigC_assignment']) retrieved from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:09:57.563+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:09:57.562+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-07-22T16:09:57.611+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:09:57.611+0000] {dag.py:3328} INFO - Setting next_dagrun for BigC_assignment to 2023-07-24T00:00:00+00:00, run_after=2023-07-25T00:00:00+00:00
+[2023-07-22T16:09:57.656+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bigc_assignment.py took 0.495 seconds
+[2023-07-22T16:10:27.949+0000] {processor.py:156} INFO - Started process (PID=1127) to work on /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:10:27.953+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bigc_assignment.py for tasks to queue
+[2023-07-22T16:10:27.955+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:10:27.955+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:10:28.382+0000] {processor.py:768} INFO - DAG(s) dict_keys(['BigC_assignment']) retrieved from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:10:28.462+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:10:28.462+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-07-22T16:10:28.510+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:10:28.510+0000] {dag.py:3328} INFO - Setting next_dagrun for BigC_assignment to 2023-07-24T00:00:00+00:00, run_after=2023-07-25T00:00:00+00:00
+[2023-07-22T16:10:28.553+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bigc_assignment.py took 0.613 seconds
+[2023-07-22T16:10:58.876+0000] {processor.py:156} INFO - Started process (PID=1151) to work on /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:10:58.879+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bigc_assignment.py for tasks to queue
+[2023-07-22T16:10:58.882+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:10:58.882+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:11:00.856+0000] {processor.py:768} INFO - DAG(s) dict_keys(['BigC_assignment']) retrieved from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:11:00.987+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:11:00.981+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-07-22T16:11:01.090+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:11:01.090+0000] {dag.py:3328} INFO - Setting next_dagrun for BigC_assignment to 2023-07-24T00:00:00+00:00, run_after=2023-07-25T00:00:00+00:00
+[2023-07-22T16:11:01.145+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bigc_assignment.py took 2.276 seconds
+[2023-07-22T16:11:14.273+0000] {processor.py:156} INFO - Started process (PID=1166) to work on /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:11:14.275+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bigc_assignment.py for tasks to queue
+[2023-07-22T16:11:14.278+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:11:14.278+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:11:14.952+0000] {processor.py:768} INFO - DAG(s) dict_keys(['BigC_assignment']) retrieved from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:11:15.021+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:11:15.020+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-07-22T16:11:15.062+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:11:15.061+0000] {dag.py:3328} INFO - Setting next_dagrun for BigC_assignment to 2023-07-24T00:00:00+00:00, run_after=2023-07-25T00:00:00+00:00
+[2023-07-22T16:11:15.112+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bigc_assignment.py took 0.848 seconds
+[2023-07-22T16:11:35.389+0000] {processor.py:156} INFO - Started process (PID=1190) to work on /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:11:35.391+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bigc_assignment.py for tasks to queue
+[2023-07-22T16:11:35.394+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:11:35.393+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:11:35.874+0000] {processor.py:768} INFO - DAG(s) dict_keys(['BigC_assignment']) retrieved from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:11:35.929+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:11:35.928+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-07-22T16:11:35.967+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:11:35.967+0000] {dag.py:3328} INFO - Setting next_dagrun for BigC_assignment to 2023-07-24T00:00:00+00:00, run_after=2023-07-25T00:00:00+00:00
+[2023-07-22T16:11:36.007+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bigc_assignment.py took 0.626 seconds
+[2023-07-22T16:12:06.325+0000] {processor.py:156} INFO - Started process (PID=1224) to work on /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:12:06.328+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bigc_assignment.py for tasks to queue
+[2023-07-22T16:12:06.333+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:12:06.333+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:12:06.826+0000] {processor.py:768} INFO - DAG(s) dict_keys(['BigC_assignment']) retrieved from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:12:06.897+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:12:06.897+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-07-22T16:12:06.934+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:12:06.934+0000] {dag.py:3328} INFO - Setting next_dagrun for BigC_assignment to 2023-07-24T00:00:00+00:00, run_after=2023-07-25T00:00:00+00:00
+[2023-07-22T16:12:07.006+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bigc_assignment.py took 0.687 seconds
+[2023-07-22T16:12:15.077+0000] {processor.py:156} INFO - Started process (PID=1230) to work on /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:12:15.080+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bigc_assignment.py for tasks to queue
+[2023-07-22T16:12:15.084+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:12:15.083+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:12:15.698+0000] {processor.py:768} INFO - DAG(s) dict_keys(['BigC_assignment']) retrieved from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:12:15.749+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:12:15.749+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-07-22T16:12:15.787+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:12:15.787+0000] {dag.py:3328} INFO - Setting next_dagrun for BigC_assignment to 2023-07-24T00:00:00+00:00, run_after=2023-07-25T00:00:00+00:00
+[2023-07-22T16:12:15.827+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bigc_assignment.py took 0.758 seconds
+[2023-07-22T16:12:20.356+0000] {processor.py:156} INFO - Started process (PID=1244) to work on /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:12:20.358+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bigc_assignment.py for tasks to queue
+[2023-07-22T16:12:20.360+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:12:20.360+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:12:22.421+0000] {processor.py:768} INFO - DAG(s) dict_keys(['BigC_assignment']) retrieved from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:12:22.488+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:12:22.488+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-07-22T16:12:22.637+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:12:22.637+0000] {dag.py:3328} INFO - Setting next_dagrun for BigC_assignment to 2023-07-24T00:00:00+00:00, run_after=2023-07-25T00:00:00+00:00
+[2023-07-22T16:12:22.708+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bigc_assignment.py took 2.359 seconds
+[2023-07-22T16:12:53.121+0000] {processor.py:156} INFO - Started process (PID=1278) to work on /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:12:53.124+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bigc_assignment.py for tasks to queue
+[2023-07-22T16:12:53.126+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:12:53.126+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:12:53.737+0000] {processor.py:768} INFO - DAG(s) dict_keys(['BigC_assignment']) retrieved from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:12:53.834+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:12:53.834+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-07-22T16:12:53.893+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:12:53.893+0000] {dag.py:3328} INFO - Setting next_dagrun for BigC_assignment to 2023-07-24T00:00:00+00:00, run_after=2023-07-25T00:00:00+00:00
+[2023-07-22T16:12:53.927+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bigc_assignment.py took 0.812 seconds
+[2023-07-22T16:13:24.253+0000] {processor.py:156} INFO - Started process (PID=1302) to work on /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:13:24.258+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bigc_assignment.py for tasks to queue
+[2023-07-22T16:13:24.263+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:13:24.262+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:13:25.739+0000] {processor.py:768} INFO - DAG(s) dict_keys(['BigC_assignment']) retrieved from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:13:26.044+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:13:26.044+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-07-22T16:13:26.100+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:13:26.100+0000] {dag.py:3328} INFO - Setting next_dagrun for BigC_assignment to 2023-07-24T00:00:00+00:00, run_after=2023-07-25T00:00:00+00:00
+[2023-07-22T16:13:26.323+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bigc_assignment.py took 2.096 seconds
+[2023-07-22T16:13:56.678+0000] {processor.py:156} INFO - Started process (PID=1331) to work on /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:13:56.680+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bigc_assignment.py for tasks to queue
+[2023-07-22T16:13:56.685+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:13:56.682+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:13:57.137+0000] {processor.py:768} INFO - DAG(s) dict_keys(['BigC_assignment']) retrieved from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:13:57.197+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:13:57.197+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-07-22T16:13:57.235+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:13:57.235+0000] {dag.py:3328} INFO - Setting next_dagrun for BigC_assignment to 2023-07-24T00:00:00+00:00, run_after=2023-07-25T00:00:00+00:00
+[2023-07-22T16:13:57.268+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bigc_assignment.py took 0.599 seconds
+[2023-07-22T16:14:27.632+0000] {processor.py:156} INFO - Started process (PID=1370) to work on /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:14:27.635+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bigc_assignment.py for tasks to queue
+[2023-07-22T16:14:27.637+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:14:27.637+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:14:27.985+0000] {processor.py:768} INFO - DAG(s) dict_keys(['BigC_assignment']) retrieved from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:14:28.033+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:14:28.033+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-07-22T16:14:28.067+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:14:28.067+0000] {dag.py:3328} INFO - Setting next_dagrun for BigC_assignment to 2023-07-24T00:00:00+00:00, run_after=2023-07-25T00:00:00+00:00
+[2023-07-22T16:14:28.095+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bigc_assignment.py took 0.468 seconds
+[2023-07-22T16:14:37.914+0000] {processor.py:156} INFO - Started process (PID=1388) to work on /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:14:37.916+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bigc_assignment.py for tasks to queue
+[2023-07-22T16:14:37.919+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:14:37.919+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:14:38.626+0000] {processor.py:768} INFO - DAG(s) dict_keys(['BigC_assignment']) retrieved from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:14:38.745+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:14:38.745+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-07-22T16:14:38.787+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:14:38.786+0000] {dag.py:3328} INFO - Setting next_dagrun for BigC_assignment to 2023-07-22T00:00:00+00:00, run_after=2023-07-23T00:00:00+00:00
+[2023-07-22T16:14:38.831+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bigc_assignment.py took 0.926 seconds
+[2023-07-22T16:15:09.269+0000] {processor.py:156} INFO - Started process (PID=1420) to work on /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:15:09.278+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bigc_assignment.py for tasks to queue
+[2023-07-22T16:15:09.286+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:15:09.285+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:15:10.651+0000] {processor.py:768} INFO - DAG(s) dict_keys(['BigC_assignment']) retrieved from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:15:10.897+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:15:10.896+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-07-22T16:15:11.020+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:15:11.019+0000] {dag.py:3328} INFO - Setting next_dagrun for BigC_assignment to 2023-07-22T00:00:00+00:00, run_after=2023-07-23T00:00:00+00:00
+[2023-07-22T16:15:11.219+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bigc_assignment.py took 2.031 seconds
+[2023-07-22T16:15:42.346+0000] {processor.py:156} INFO - Started process (PID=1451) to work on /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:15:42.356+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bigc_assignment.py for tasks to queue
+[2023-07-22T16:15:42.378+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:15:42.368+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:15:44.036+0000] {processor.py:768} INFO - DAG(s) dict_keys(['BigC_assignment']) retrieved from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:15:44.202+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:15:44.201+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-07-22T16:15:44.489+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:15:44.488+0000] {dag.py:3328} INFO - Setting next_dagrun for BigC_assignment to 2023-07-22T00:00:00+00:00, run_after=2023-07-23T00:00:00+00:00
+[2023-07-22T16:15:44.528+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bigc_assignment.py took 2.208 seconds
+[2023-07-22T16:16:15.012+0000] {processor.py:156} INFO - Started process (PID=1489) to work on /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:16:15.031+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bigc_assignment.py for tasks to queue
+[2023-07-22T16:16:15.055+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:16:15.053+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:16:15.757+0000] {processor.py:768} INFO - DAG(s) dict_keys(['BigC_assignment']) retrieved from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:16:15.836+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:16:15.834+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-07-22T16:16:16.186+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:16:16.186+0000] {dag.py:3328} INFO - Setting next_dagrun for BigC_assignment to 2023-07-22T00:00:00+00:00, run_after=2023-07-23T00:00:00+00:00
+[2023-07-22T16:16:16.369+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bigc_assignment.py took 1.369 seconds
+[2023-07-22T16:16:46.683+0000] {processor.py:156} INFO - Started process (PID=1518) to work on /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:16:46.686+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bigc_assignment.py for tasks to queue
+[2023-07-22T16:16:46.688+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:16:46.688+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:16:47.074+0000] {processor.py:768} INFO - DAG(s) dict_keys(['BigC_assignment']) retrieved from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:16:47.129+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:16:47.128+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-07-22T16:16:47.178+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:16:47.178+0000] {dag.py:3328} INFO - Setting next_dagrun for BigC_assignment to 2023-07-22T00:00:00+00:00, run_after=2023-07-23T00:00:00+00:00
+[2023-07-22T16:16:47.214+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bigc_assignment.py took 0.536 seconds
+[2023-07-22T16:17:17.360+0000] {processor.py:156} INFO - Started process (PID=1556) to work on /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:17:17.363+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bigc_assignment.py for tasks to queue
+[2023-07-22T16:17:17.366+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:17:17.365+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:17:17.688+0000] {processor.py:768} INFO - DAG(s) dict_keys(['BigC_assignment']) retrieved from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:17:17.756+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:17:17.755+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-07-22T16:17:17.794+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:17:17.794+0000] {dag.py:3328} INFO - Setting next_dagrun for BigC_assignment to 2023-07-22T00:00:00+00:00, run_after=2023-07-23T00:00:00+00:00
+[2023-07-22T16:17:17.826+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bigc_assignment.py took 0.473 seconds
+[2023-07-22T16:17:48.563+0000] {processor.py:156} INFO - Started process (PID=1594) to work on /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:17:48.568+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bigc_assignment.py for tasks to queue
+[2023-07-22T16:17:48.572+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:17:48.571+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:17:49.292+0000] {processor.py:768} INFO - DAG(s) dict_keys(['BigC_assignment']) retrieved from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:17:49.356+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:17:49.356+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-07-22T16:17:49.394+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:17:49.393+0000] {dag.py:3328} INFO - Setting next_dagrun for BigC_assignment to 2023-07-22T00:00:00+00:00, run_after=2023-07-23T00:00:00+00:00
+[2023-07-22T16:17:49.428+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bigc_assignment.py took 0.876 seconds
+[2023-07-22T16:18:04.044+0000] {processor.py:156} INFO - Started process (PID=1613) to work on /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:18:04.050+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bigc_assignment.py for tasks to queue
+[2023-07-22T16:18:04.080+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:18:04.080+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:18:04.502+0000] {processor.py:768} INFO - DAG(s) dict_keys(['BigC_assignment']) retrieved from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:18:04.550+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:18:04.550+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-07-22T16:18:04.586+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:18:04.586+0000] {dag.py:3328} INFO - Setting next_dagrun for BigC_assignment to 2023-07-22T00:00:00+00:00, run_after=2023-07-23T00:00:00+00:00
+[2023-07-22T16:18:04.616+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bigc_assignment.py took 0.598 seconds
+[2023-07-22T16:18:35.126+0000] {processor.py:156} INFO - Started process (PID=1643) to work on /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:18:35.129+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bigc_assignment.py for tasks to queue
+[2023-07-22T16:18:35.132+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:18:35.131+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:18:35.594+0000] {processor.py:768} INFO - DAG(s) dict_keys(['BigC_assignment']) retrieved from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:18:35.645+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:18:35.645+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-07-22T16:18:35.701+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:18:35.700+0000] {dag.py:3328} INFO - Setting next_dagrun for BigC_assignment to 2023-07-22T00:00:00+00:00, run_after=2023-07-23T00:00:00+00:00
+[2023-07-22T16:18:35.729+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bigc_assignment.py took 0.609 seconds
+[2023-07-22T16:19:06.549+0000] {processor.py:156} INFO - Started process (PID=1675) to work on /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:19:06.553+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bigc_assignment.py for tasks to queue
+[2023-07-22T16:19:06.557+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:19:06.556+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:19:06.973+0000] {processor.py:768} INFO - DAG(s) dict_keys(['BigC_assignment']) retrieved from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:19:07.035+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:19:07.034+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-07-22T16:19:07.081+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:19:07.080+0000] {dag.py:3328} INFO - Setting next_dagrun for BigC_assignment to 2023-07-22T00:00:00+00:00, run_after=2023-07-23T00:00:00+00:00
+[2023-07-22T16:19:07.128+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bigc_assignment.py took 0.591 seconds
+[2023-07-22T16:19:37.853+0000] {processor.py:156} INFO - Started process (PID=1713) to work on /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:19:37.857+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bigc_assignment.py for tasks to queue
+[2023-07-22T16:19:37.861+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:19:37.861+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:19:38.740+0000] {processor.py:768} INFO - DAG(s) dict_keys(['BigC_assignment']) retrieved from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:19:38.877+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:19:38.876+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-07-22T16:19:38.975+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:19:38.975+0000] {dag.py:3328} INFO - Setting next_dagrun for BigC_assignment to 2023-07-22T00:00:00+00:00, run_after=2023-07-23T00:00:00+00:00
+[2023-07-22T16:19:39.039+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bigc_assignment.py took 1.198 seconds
+[2023-07-22T16:20:09.930+0000] {processor.py:156} INFO - Started process (PID=1741) to work on /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:20:09.951+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bigc_assignment.py for tasks to queue
+[2023-07-22T16:20:09.965+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:20:09.962+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:20:12.112+0000] {processor.py:768} INFO - DAG(s) dict_keys(['BigC_assignment']) retrieved from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:20:12.200+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:20:12.199+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-07-22T16:20:12.259+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:20:12.251+0000] {dag.py:3328} INFO - Setting next_dagrun for BigC_assignment to 2023-07-22T00:00:00+00:00, run_after=2023-07-23T00:00:00+00:00
+[2023-07-22T16:20:12.319+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bigc_assignment.py took 2.428 seconds
+[2023-07-22T16:20:42.613+0000] {processor.py:156} INFO - Started process (PID=1770) to work on /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:20:42.627+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bigc_assignment.py for tasks to queue
+[2023-07-22T16:20:42.643+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:20:42.643+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:20:43.280+0000] {processor.py:768} INFO - DAG(s) dict_keys(['BigC_assignment']) retrieved from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:20:43.334+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:20:43.334+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-07-22T16:20:43.373+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:20:43.373+0000] {dag.py:3328} INFO - Setting next_dagrun for BigC_assignment to 2023-07-22T00:00:00+00:00, run_after=2023-07-23T00:00:00+00:00
+[2023-07-22T16:20:43.404+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bigc_assignment.py took 0.797 seconds
+[2023-07-22T16:21:13.797+0000] {processor.py:156} INFO - Started process (PID=1798) to work on /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:21:13.800+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bigc_assignment.py for tasks to queue
+[2023-07-22T16:21:13.804+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:21:13.803+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:21:14.365+0000] {processor.py:768} INFO - DAG(s) dict_keys(['BigC_assignment']) retrieved from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:21:14.457+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:21:14.457+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-07-22T16:21:14.567+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:21:14.567+0000] {dag.py:3328} INFO - Setting next_dagrun for BigC_assignment to 2023-07-22T00:00:00+00:00, run_after=2023-07-23T00:00:00+00:00
+[2023-07-22T16:21:14.616+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bigc_assignment.py took 0.827 seconds
+[2023-07-22T16:21:45.223+0000] {processor.py:156} INFO - Started process (PID=1836) to work on /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:21:45.226+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bigc_assignment.py for tasks to queue
+[2023-07-22T16:21:45.233+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:21:45.233+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:21:45.566+0000] {processor.py:768} INFO - DAG(s) dict_keys(['BigC_assignment']) retrieved from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:21:45.623+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:21:45.622+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-07-22T16:21:45.665+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:21:45.665+0000] {dag.py:3328} INFO - Setting next_dagrun for BigC_assignment to 2023-07-22T00:00:00+00:00, run_after=2023-07-23T00:00:00+00:00
+[2023-07-22T16:21:45.698+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bigc_assignment.py took 0.482 seconds
+[2023-07-22T16:22:15.872+0000] {processor.py:156} INFO - Started process (PID=1864) to work on /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:22:15.884+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bigc_assignment.py for tasks to queue
+[2023-07-22T16:22:15.894+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:22:15.892+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:22:16.636+0000] {processor.py:768} INFO - DAG(s) dict_keys(['BigC_assignment']) retrieved from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:22:16.709+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:22:16.708+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-07-22T16:22:16.769+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:22:16.768+0000] {dag.py:3328} INFO - Setting next_dagrun for BigC_assignment to 2023-07-22T00:00:00+00:00, run_after=2023-07-23T00:00:00+00:00
+[2023-07-22T16:22:16.810+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bigc_assignment.py took 0.953 seconds
+[2023-07-22T16:22:47.055+0000] {processor.py:156} INFO - Started process (PID=1903) to work on /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:22:47.057+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bigc_assignment.py for tasks to queue
+[2023-07-22T16:22:47.059+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:22:47.058+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:22:47.395+0000] {processor.py:768} INFO - DAG(s) dict_keys(['BigC_assignment']) retrieved from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:22:47.454+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:22:47.453+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-07-22T16:22:47.503+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:22:47.503+0000] {dag.py:3328} INFO - Setting next_dagrun for BigC_assignment to 2023-07-22T00:00:00+00:00, run_after=2023-07-23T00:00:00+00:00
+[2023-07-22T16:22:47.535+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bigc_assignment.py took 0.485 seconds
+[2023-07-22T16:23:17.789+0000] {processor.py:156} INFO - Started process (PID=1933) to work on /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:23:17.792+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bigc_assignment.py for tasks to queue
+[2023-07-22T16:23:17.795+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:23:17.795+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:23:18.218+0000] {processor.py:768} INFO - DAG(s) dict_keys(['BigC_assignment']) retrieved from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:23:18.292+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:23:18.291+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-07-22T16:23:18.345+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:23:18.344+0000] {dag.py:3328} INFO - Setting next_dagrun for BigC_assignment to 2023-07-22T00:00:00+00:00, run_after=2023-07-23T00:00:00+00:00
+[2023-07-22T16:23:18.386+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bigc_assignment.py took 0.604 seconds
+[2023-07-22T16:23:48.568+0000] {processor.py:156} INFO - Started process (PID=1971) to work on /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:23:48.571+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bigc_assignment.py for tasks to queue
+[2023-07-22T16:23:48.576+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:23:48.576+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:23:50.410+0000] {processor.py:768} INFO - DAG(s) dict_keys(['BigC_assignment']) retrieved from /opt/airflow/dags/bigc_assignment.py
+[2023-07-22T16:23:50.544+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:23:50.543+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-07-22T16:23:50.778+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:23:50.778+0000] {dag.py:3328} INFO - Setting next_dagrun for BigC_assignment to 2023-07-22T00:00:00+00:00, run_after=2023-07-23T00:00:00+00:00
+[2023-07-22T16:23:50.851+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bigc_assignment.py took 2.293 seconds

@@ -1,0 +1,43 @@
+[2023-07-22T16:15:09.624+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: BigC_assignment.test_connection manual__2023-07-22T16:15:06.846029+00:00 [queued]>
+[2023-07-22T16:15:09.669+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: BigC_assignment.test_connection manual__2023-07-22T16:15:06.846029+00:00 [queued]>
+[2023-07-22T16:15:09.670+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-22T16:15:09.671+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 4
+[2023-07-22T16:15:09.673+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-22T16:15:09.718+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): test_connection> on 2023-07-22 16:15:06.846029+00:00
+[2023-07-22T16:15:09.729+0000] {standard_task_runner.py:54} INFO - Started process 1424 to run task
+[2023-07-22T16:15:09.751+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'BigC_assignment', 'test_connection', 'manual__2023-07-22T16:15:06.846029+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/bigc_assignment.py', '--cfg-path', '/tmp/tmpc8x_y__i']
+[2023-07-22T16:15:09.764+0000] {standard_task_runner.py:83} INFO - Job 5: Subtask test_connection
+[2023-07-22T16:15:09.772+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/bigc_assignment.py
+[2023-07-22T16:15:12.118+0000] {task_command.py:384} INFO - Running <TaskInstance: BigC_assignment.test_connection manual__2023-07-22T16:15:06.846029+00:00 [running]> on host b852f19ea805
+[2023-07-22T16:15:12.296+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Pitchakorn_Prasertmet
+AIRFLOW_CTX_DAG_ID=BigC_assignment
+AIRFLOW_CTX_TASK_ID=test_connection
+AIRFLOW_CTX_EXECUTION_DATE=2023-07-22T16:15:06.846029+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-07-22T16:15:06.846029+00:00
+[2023-07-22T16:15:12.299+0000] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 193, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/bigc_assignment.py", line 12, in test_connection
+    conn = psycopg2.connect("host=localhost port=5432 dbname=airflow user=airflow password=airflow")
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+
+[2023-07-22T16:15:12.318+0000] {taskinstance.py:1406} INFO - Marking task as UP_FOR_RETRY. dag_id=BigC_assignment, task_id=test_connection, execution_date=20230722T161506, start_date=20230722T161509, end_date=20230722T161512
+[2023-07-22T16:15:12.342+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 5 for task test_connection (connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+; 1424)
+[2023-07-22T16:15:12.374+0000] {local_task_job.py:164} INFO - Task exited with return code 1
+[2023-07-22T16:15:12.406+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

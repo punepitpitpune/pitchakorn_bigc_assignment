@@ -1,0 +1,35 @@
+[2023-07-22T16:33:55.457+0000] {processor.py:156} INFO - Started process (PID=2492) to work on /opt/airflow/dags/step_1_insert_data.py
+[2023-07-22T16:33:55.459+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/step_1_insert_data.py for tasks to queue
+[2023-07-22T16:33:55.462+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:33:55.461+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/step_1_insert_data.py
+[2023-07-22T16:33:55.790+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/step_1_insert_data.py
+[2023-07-22T16:33:55.818+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/step_1_insert_data.py took 0.368 seconds
+[2023-07-22T16:34:26.074+0000] {processor.py:156} INFO - Started process (PID=2533) to work on /opt/airflow/dags/step_1_insert_data.py
+[2023-07-22T16:34:26.077+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/step_1_insert_data.py for tasks to queue
+[2023-07-22T16:34:26.079+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:34:26.079+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/step_1_insert_data.py
+[2023-07-22T16:34:26.405+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/step_1_insert_data.py
+[2023-07-22T16:34:26.428+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/step_1_insert_data.py took 0.362 seconds
+[2023-07-22T16:34:56.700+0000] {processor.py:156} INFO - Started process (PID=2563) to work on /opt/airflow/dags/step_1_insert_data.py
+[2023-07-22T16:34:56.703+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/step_1_insert_data.py for tasks to queue
+[2023-07-22T16:34:56.707+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:34:56.706+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/step_1_insert_data.py
+[2023-07-22T16:34:57.620+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/step_1_insert_data.py
+[2023-07-22T16:34:57.648+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/step_1_insert_data.py took 0.956 seconds
+[2023-07-22T16:35:27.721+0000] {processor.py:156} INFO - Started process (PID=2602) to work on /opt/airflow/dags/step_1_insert_data.py
+[2023-07-22T16:35:27.723+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/step_1_insert_data.py for tasks to queue
+[2023-07-22T16:35:27.725+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:35:27.724+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/step_1_insert_data.py
+[2023-07-22T16:35:28.151+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/step_1_insert_data.py
+[2023-07-22T16:35:28.191+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/step_1_insert_data.py took 0.474 seconds
+[2023-07-22T16:35:58.443+0000] {processor.py:156} INFO - Started process (PID=2632) to work on /opt/airflow/dags/step_1_insert_data.py
+[2023-07-22T16:35:58.446+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/step_1_insert_data.py for tasks to queue
+[2023-07-22T16:35:58.448+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:35:58.448+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/step_1_insert_data.py
+[2023-07-22T16:35:58.763+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/step_1_insert_data.py
+[2023-07-22T16:35:58.786+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/step_1_insert_data.py took 0.347 seconds
+[2023-07-22T16:36:29.027+0000] {processor.py:156} INFO - Started process (PID=2671) to work on /opt/airflow/dags/step_1_insert_data.py
+[2023-07-22T16:36:29.029+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/step_1_insert_data.py for tasks to queue
+[2023-07-22T16:36:29.031+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:36:29.031+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/step_1_insert_data.py
+[2023-07-22T16:36:29.361+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/step_1_insert_data.py
+[2023-07-22T16:36:29.383+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/step_1_insert_data.py took 0.362 seconds
+[2023-07-22T16:36:49.480+0000] {processor.py:156} INFO - Started process (PID=2702) to work on /opt/airflow/dags/step_1_insert_data.py
+[2023-07-22T16:36:49.488+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/step_1_insert_data.py for tasks to queue
+[2023-07-22T16:36:49.514+0000] {logging_mixin.py:117} INFO - [2023-07-22T16:36:49.506+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/step_1_insert_data.py
+[2023-07-22T16:36:50.069+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/step_1_insert_data.py
+[2023-07-22T16:36:50.089+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/step_1_insert_data.py took 0.623 seconds
