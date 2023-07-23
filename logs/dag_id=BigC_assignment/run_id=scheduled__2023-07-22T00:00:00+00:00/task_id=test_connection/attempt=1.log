@@ -1,0 +1,25 @@
+[2023-07-23T15:06:50.523+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: BigC_assignment.test_connection scheduled__2023-07-22T00:00:00+00:00 [queued]>
+[2023-07-23T15:06:50.575+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: BigC_assignment.test_connection scheduled__2023-07-22T00:00:00+00:00 [queued]>
+[2023-07-23T15:06:50.578+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-23T15:06:50.584+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 4
+[2023-07-23T15:06:50.588+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-23T15:06:50.727+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): test_connection> on 2023-07-22 00:00:00+00:00
+[2023-07-23T15:06:50.734+0000] {standard_task_runner.py:54} INFO - Started process 1811 to run task
+[2023-07-23T15:06:50.739+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'BigC_assignment', 'test_connection', 'scheduled__2023-07-22T00:00:00+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/bigc_assignment_pipeline.py', '--cfg-path', '/tmp/tmpx2rmhdaa']
+[2023-07-23T15:06:50.744+0000] {standard_task_runner.py:83} INFO - Job 3: Subtask test_connection
+[2023-07-23T15:06:50.747+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/bigc_assignment_pipeline.py
+[2023-07-23T15:06:54.374+0000] {task_command.py:384} INFO - Running <TaskInstance: BigC_assignment.test_connection scheduled__2023-07-22T00:00:00+00:00 [running]> on host 8d374bbcaaec
+[2023-07-23T15:06:55.911+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Pitchakorn_Prasertmet
+AIRFLOW_CTX_DAG_ID=BigC_assignment
+AIRFLOW_CTX_TASK_ID=test_connection
+AIRFLOW_CTX_EXECUTION_DATE=2023-07-22T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-07-22T00:00:00+00:00
+[2023-07-23T15:06:55.958+0000] {logging_mixin.py:117} INFO - Success : <connection object at 0x7f57298d2590; dsn: 'user=*** password=xxx dbname=*** host=postgres port=5432', closed: 0>
+[2023-07-23T15:06:55.963+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-07-23T15:06:56.038+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=BigC_assignment, task_id=test_connection, execution_date=20230722T000000, start_date=20230723T150650, end_date=20230723T150656
+[2023-07-23T15:06:56.166+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-07-23T15:06:56.310+0000] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

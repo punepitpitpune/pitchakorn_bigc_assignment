@@ -1,0 +1,25 @@
+[2023-07-23T15:07:07.956+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: BigC_assignment.step_2_compare_price scheduled__2023-07-22T00:00:00+00:00 [queued]>
+[2023-07-23T15:07:07.977+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: BigC_assignment.step_2_compare_price scheduled__2023-07-22T00:00:00+00:00 [queued]>
+[2023-07-23T15:07:07.983+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-23T15:07:07.986+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 4
+[2023-07-23T15:07:07.989+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-23T15:07:08.020+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): step_2_compare_price> on 2023-07-22 00:00:00+00:00
+[2023-07-23T15:07:08.029+0000] {standard_task_runner.py:54} INFO - Started process 1843 to run task
+[2023-07-23T15:07:08.037+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'BigC_assignment', 'step_2_compare_price', 'scheduled__2023-07-22T00:00:00+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/bigc_assignment_pipeline.py', '--cfg-path', '/tmp/tmp89jr0z5l']
+[2023-07-23T15:07:08.047+0000] {standard_task_runner.py:83} INFO - Job 7: Subtask step_2_compare_price
+[2023-07-23T15:07:08.051+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/bigc_assignment_pipeline.py
+[2023-07-23T15:07:08.919+0000] {task_command.py:384} INFO - Running <TaskInstance: BigC_assignment.step_2_compare_price scheduled__2023-07-22T00:00:00+00:00 [running]> on host 8d374bbcaaec
+[2023-07-23T15:07:09.063+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Pitchakorn_Prasertmet
+AIRFLOW_CTX_DAG_ID=BigC_assignment
+AIRFLOW_CTX_TASK_ID=step_2_compare_price
+AIRFLOW_CTX_EXECUTION_DATE=2023-07-22T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-07-22T00:00:00+00:00
+[2023-07-23T15:07:09.644+0000] {logging_mixin.py:117} INFO - finished inserted 206 records
+[2023-07-23T15:07:09.657+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-07-23T15:07:09.685+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=BigC_assignment, task_id=step_2_compare_price, execution_date=20230722T000000, start_date=20230723T150707, end_date=20230723T150709
+[2023-07-23T15:07:09.856+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-07-23T15:07:09.958+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
