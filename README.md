@@ -1,6 +1,3 @@
-# This is a Airflow and Postgres docker config for in local 
-
-
 All the codes code are in the folder "dags"
 - `step_0_create_table.py`
 - `step_1_insert_data.py`
