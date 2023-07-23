@@ -15,6 +15,8 @@ All the codes code are in the folder "dags"
     - username : ```airflow```
     - password : ```airflow```
 
+4. Trigger the pipeline
+
 - Postgres connection detail<br />
     - hostname : ```localhost```
     - port : ```5432```
