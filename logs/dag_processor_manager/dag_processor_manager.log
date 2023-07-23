@@ -1100,3 +1100,109 @@ File Path                                      PID    Runtime      # DAGs    # E
 /opt/airflow/dags/bigc_assignment_pipeline.py                           1           0  0.69s           2023-07-22T16:36:48
 ================================================================================
 [2023-07-22T16:37:00.754+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2023-07-23T14:13:08.049+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2023-07-23T14:13:08.070+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2023-07-23T14:13:08.072+0000] {manager.py:486} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-07-23T14:13:08.076+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2023-07-23T14:13:08.161+0000] {manager.py:727} INFO - There are 2 files in /opt/airflow/dags
+[2023-07-23T14:13:08.557+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/bigc_assignment_pipeline.py    174  0.21s             0           0
+/opt/airflow/dags/step_1_insert_data.py          173  0.22s             0           0
+================================================================================
+[2023-07-23T14:13:38.862+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/step_1_insert_data.py                                 0           0  4.34s           2023-07-23T14:13:12
+/opt/airflow/dags/bigc_assignment_pipeline.py                           1           0  5.56s           2023-07-23T14:13:13
+================================================================================
+[2023-07-23T14:14:09.831+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/step_1_insert_data.py                                 0           0  0.97s           2023-07-23T14:13:43
+/opt/airflow/dags/bigc_assignment_pipeline.py                           1           0  1.20s           2023-07-23T14:13:45
+================================================================================
+[2023-07-23T14:14:40.180+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/step_1_insert_data.py                                 0           0  2.89s           2023-07-23T14:14:17
+/opt/airflow/dags/bigc_assignment_pipeline.py                           1           0  2.16s           2023-07-23T14:14:17
+================================================================================
+[2023-07-23T14:15:11.041+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/step_1_insert_data.py                                 0           0  2.53s           2023-07-23T14:14:49
+/opt/airflow/dags/bigc_assignment_pipeline.py                           1           0  2.31s           2023-07-23T14:14:50
+================================================================================
+[2023-07-23T14:15:41.039+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/step_1_insert_data.py                                 0           0  0.62s           2023-07-23T14:15:20
+/opt/airflow/dags/bigc_assignment_pipeline.py                           1           0  0.78s           2023-07-23T14:15:20
+================================================================================
+[2023-07-23T14:16:11.304+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/step_1_insert_data.py                                 0           0  1.13s           2023-07-23T14:15:52
+/opt/airflow/dags/bigc_assignment_pipeline.py                           1           0  1.37s           2023-07-23T14:15:52
+================================================================================
+[2023-07-23T14:16:42.016+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/step_1_insert_data.py                                 0           0  2.99s           2023-07-23T14:16:25
+/opt/airflow/dags/bigc_assignment_pipeline.py                           1           0  2.79s           2023-07-23T14:16:25
+================================================================================
+[2023-07-23T14:17:12.491+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/step_1_insert_data.py                                 0           0  2.36s           2023-07-23T14:16:58
+/opt/airflow/dags/bigc_assignment_pipeline.py                           1           0  2.44s           2023-07-23T14:16:58
+================================================================================
+[2023-07-23T14:17:42.545+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/step_1_insert_data.py                                 0           0  0.74s           2023-07-23T14:17:29
+/opt/airflow/dags/bigc_assignment_pipeline.py                           1           0  0.86s           2023-07-23T14:17:29
+================================================================================
+[2023-07-23T14:18:08.760+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2023-07-23T14:18:08.791+0000] {manager.py:727} INFO - There are 2 files in /opt/airflow/dags
+[2023-07-23T14:18:12.843+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/step_1_insert_data.py                                 0           0  1.03s           2023-07-23T14:18:00
+/opt/airflow/dags/bigc_assignment_pipeline.py                           1           0  1.17s           2023-07-23T14:18:00
+================================================================================
