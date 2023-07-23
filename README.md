@@ -12,13 +12,13 @@ All the codes code are in the folder "dags"
 2. RUN ``` step_0_create_table.py ``` to create nescessary tables
 
 3. Connect Airflow Web UI via browser<br />
-    ``` localhost:8080 ```
-    username : ```airflow```
-    password : ```airflow```
+    - ``` localhost:8080 ```
+    - username : ```airflow```
+    - password : ```airflow```
 
 - Postgres connection detail<br />
-    hostname : ```localhost```
-    port : ```5432```
-    username : ```airflow```
-    password : ```airflow```
-    database : ```airflow```
+    - hostname : ```localhost```
+    - port : ```5432```
+    - username : ```airflow```
+    - password : ```airflow```
+    - database : ```airflow```
